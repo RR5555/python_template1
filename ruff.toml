@@ -1,0 +1,7 @@
+# Exclude additional directories.
+extend-exclude = [
+    ".*"
+]
+extend-select = ["C4", "SIM", "TCH", "PL", "N", "D"]
+extend-ignore = ["D206", "D413",
+                    "D101", "D102", "D107"]
