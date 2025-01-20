@@ -2,6 +2,9 @@
 extend-exclude = [
     ".*"
 ]
-extend-select = ["C4", "SIM", "TCH", "PL", "N", "D"]
-extend-ignore = ["D206", "D413",
-                    "D101", "D102", "D107"]
+lint.extend-select = ["C4", "SIM", "TCH", "PL", "N", "D"]
+lint.extend-ignore = ["D206", "D413",
+                    "D101", "D102", "D107",
+                    "D213", # first-line summary in docstring
+                    "D203", # incorrect-blank-line-before-class
+                    ]
